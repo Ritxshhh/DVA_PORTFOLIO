@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ritesh - Resume</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: "Segoe UI", Arial, sans-serif; font-size: 13px; color: #1a1a1a; background: #fff; padding: 40px 50px; max-width: 850px; margin: auto; }
+
+        h1 { font-size: 26px; font-weight: 700; letter-spacing: 1px; }
+        .subtitle { font-size: 13px; color: #555; margin-top: 2px; }
+        .contact { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px; font-size: 12px; color: #333; }
+        .contact a { color: #333; text-decoration: none; }
+
+        hr { border: none; border-top: 1.5px solid #1a1a1a; margin: 12px 0 8px; }
+
+        .section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+
+        .section { margin-bottom: 18px; }
+
+        .item-header { display: flex; justify-content: space-between; align-items: baseline; }
+        .item-title { font-weight: 700; font-size: 13px; }
+        .item-date { font-size: 12px; color: #555; white-space: nowrap; }
+        .item-sub { font-size: 12px; color: #444; margin-bottom: 4px; }
+        ul { padding-left: 18px; }
+        ul li { margin-bottom: 3px; font-size: 12.5px; line-height: 1.5; }
+
+        .skills-grid { display: grid; grid-template-columns: 120px 1fr; gap: 4px 12px; font-size: 12.5px; }
+        .skill-label { font-weight: 600; }
+
+        @media print {
+            body { padding: 30px 40px; }
+            a { color: #1a1a1a; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>RITESH</h1>
+    <div class="subtitle">Data Analyst</div>
+    <div class="contact">
+        <span>📍 Sonipat, Haryana, India</span>
+        <span>📧 <a href="mailto:ritesh.2024@nst.rishihood.edu.in">ritesh.2024@nst.rishihood.edu.in</a></span>
+        <span>📞 <a href="tel:+917027417011">+91 7027417011</a></span>
+        <span>🔗 <a href="https://www.linkedin.com/in/ritesh-2979b2207">linkedin.com/in/ritxssshhh</a></span>
+        <span>🐙 <a href="https://github.com/Ritxshhh">github.com/Ritxshhh</a></span>
+    </div>
+
+    <hr>
+
+    <!-- SUMMARY -->
+    <div class="section">
+        <div class="section-title">Summary</div>
+        <p style="font-size:12.5px; line-height:1.6;">Data Analyst with hands-on experience in building interactive dashboards and visual analytics using Tableau. Skilled at transforming complex datasets into clear, actionable insights. Proficient in Excel, SQL, Python, and Looker Studio with a strong focus on data storytelling and business intelligence.</p>
+    </div>
+
+    <hr>
+
+    <!-- PROJECTS -->
+    <div class="section">
+        <div class="section-title">Projects</div>
+
+        <div style="margin-bottom:12px;">
+            <div class="item-header">
+                <span class="item-title">Super Store Sales Overview Dashboard</span>
+                <span class="item-date">Tableau | 2026</span>
+            </div>
+            <div class="item-sub"><a href="https://public.tableau.com/app/profile/ritesh.sihag5582/viz/SuperstoreSalesOverviewDashboard_17778297315380/ExecOverview">View on Tableau Public</a></div>
+            <ul>
+                <li>Built an executive-level Tableau dashboard providing a comprehensive overview of Superstore sales performance.</li>
+                <li>Visualized revenue trends, product category breakdowns, and regional sales comparisons using calculated fields and filters.</li>
+                <li>Enabled stakeholders to identify top-performing segments and underperforming regions at a glance.</li>
+            </ul>
+        </div>
+
+        <div style="margin-bottom:12px;">
+            <div class="item-header">
+                <span class="item-title">Super Store Shipping Metrics Dashboard</span>
+                <span class="item-date">Tableau | 2026</span>
+            </div>
+            <div class="item-sub"><a href="https://public.tableau.com/app/profile/ritesh.sihag5582/viz/SuperstoreShippingMetrics_DVA_17778299099730/Superstore">View on Tableau Public</a></div>
+            <ul>
+                <li>Designed a Tableau dashboard to analyze Superstore logistics including shipping modes, delivery times, and order priorities.</li>
+                <li>Identified shipping bottlenecks and regional delivery inefficiencies through visual KPI tracking.</li>
+                <li>Helped simulate data-driven decisions to optimize supply chain and reduce late deliveries.</li>
+            </ul>
+        </div>
+
+        <div style="margin-bottom:12px;">
+            <div class="item-header">
+                <span class="item-title">Game Log Dashboard</span>
+                <span class="item-date">Tableau | 2026</span>
+            </div>
+            <div class="item-sub"><a href="https://public.tableau.com/app/profile/ritesh.sihag5582/viz/GameLogDashboard_DVA_17778300648810/GameDashboard">View on Tableau Public</a></div>
+            <ul>
+                <li>Created an interactive Tableau dashboard to visualize game log data including player stats and match outcomes.</li>
+                <li>Tracked performance trends over time using dynamic filters and parameter-driven views.</li>
+                <li>Delivered game-by-game breakdowns enabling detailed performance analysis.</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- SKILLS -->
+    <div class="section">
+        <div class="section-title">Skills</div>
+        <div class="skills-grid">
+            <span class="skill-label">Visualization</span><span>Tableau, Looker Studio</span>
+            <span class="skill-label">Spreadsheets</span><span>Microsoft Excel (Pivot Tables, Power Query, VBA)</span>
+            <span class="skill-label">Programming</span><span>Python (Pandas, NumPy), SQL</span>
+            <span class="skill-label">Tools</span><span>GitHub, Google Sheets</span>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- EDUCATION -->
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="item-header">
+            <span class="item-title">Bachelor's Degree</span>
+            <span class="item-date">2024 - 2028</span>
+        </div>
+        <div class="item-sub">Rishihood University — Sonipat, Haryana, India</div>
+    </div>
+
+    <hr>
+
+</body>
+</html>
